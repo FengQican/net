@@ -14,7 +14,8 @@
 {
     // Override point for customization after application launch.
     //11:53  使用gitHub Source Control
- // 打开文件夹
+ // 判断文件是否存在
+  __unused  NSFileManager *fileManger = [NSFileManager defaultManager];
  //打开文件
  //获取文件内容
  //开始循环获取文件夹内容
