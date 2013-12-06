@@ -13,12 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    //11:53  使用gitHub Source Control
- // 判断文件是否存在  pull
-  __unused  NSFileManager *fileManger = [NSFileManager defaultManager];
- //打开文件
- //获取文件内容
- //开始循环获取文件夹内容
+
     return YES;
 }
 							
@@ -42,7 +37,7 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    //in 11:57 coding
+ 
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
